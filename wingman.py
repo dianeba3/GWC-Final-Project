@@ -317,7 +317,7 @@ while True:
             print("Bye!")
             exit()
         else:
-            star77=input("Sorry I do not understand, do you want to ask another question?")
+            star77=input("I do not understand, do you want to ask another question?")
             if("yes" in star77 or "yeah" in star77 or "sure" in star77):
                 continue
             else:
