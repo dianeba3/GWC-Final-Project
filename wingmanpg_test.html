@@ -32,24 +32,10 @@
       <p class="desc"><br>Wingman is a chatbot that is meant to answer most basic questions about the college application process.
       It can answer questions about applications, financial aid, coping with stress, how to write essays, and how to make a sound decision when choosing a college.</p>
       <p class="desc"><br>Click on this button to activate the chatbot!</p>
-      <input type = “button” id=”b1″ value=”1″>
 
-      <script>
-      $(document).ready(function(){
-        $("#b1").click(function(){
-          $.ajax({
-          method: "GET",
-          url: "wingman.py",
-          data: {"place" : value},
-          dataType: "text",
-          success: function(result){
-            var data=JSON.parse(result);
-            console.log(result);
-          }
-          });
-        });
-      }
-        </script>
+
+        <p><button type="submit" onclick="exec ("wingman.py");">Chatbot</button>
+
         </div>
     <section>
 

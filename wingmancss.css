@@ -102,3 +102,20 @@ li a:hover {
   background: rgb(255,255,255);
  background: linear-gradient(180deg, rgba(255,255,255,1) 77%, rgba(104,240,218,1) 82%, rgba(125,249,226,1) 84%);
 }
+.button {
+    background-color: #13C2C2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    position:relative;
+    left: 580px;
+}
+.button:hover {
+    background-color: black; /* Green */
+    color: white;
+}
