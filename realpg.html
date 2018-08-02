@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 0%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+
+<body>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" style="width:100%">
+      <div class="container">
+        <h2>Agnes Scott College</h2>
+          <div>Location: Decatur, Georgia</div>
+          <div>Undergrad Population: 900</div>
+          <div>Private College in an Urban Setting </div>
+          <div>Tuition: $37,000</div>
+          <div>Cost of Attendance:$54,000</div>
+          <div>Average ACT: 24-29</div>
+          <div>Average SAT: 1160-1410</div>
+          <div>Is ACT/SAT writing test necessary: no</div>
+          <div>Common App or Coalition: Common App</div>
+          <div>Acceptance Rate: 62%</div>
+          <div>Types of Deadlines: Early Action, Early Decicion, Regular Decision</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+        </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" style="width:100%">
+      <div class="container">
+        <h2>Arizona State University</h2>
+          <div>Location: Tempe, Arizona</div>
+          <div>Undergrad Population: 42,000</div>
+          <div>Public College in a Suburban Setting:</div>
+          <div>Tuition: $28,000</div>
+          <div>Cost of Attendance: $44,000</div>
+          <div>Average ACT: 22-29</div>
+          <div>Average SAT: 1120-1350</div>
+          <div>Is ACT/SAT writing test necessary: no</div>
+          <div>Common App or Coalition: Common App</div>
+          <div>Acceptance Rate: 84%</div>
+          <div>Types of Deadlines: Earky Action and Regular Decision</div>
+          <p><a href="https://www.asu.edu/"><button class="button" >Go to Website</button></a></p>
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Baylor University</h2>
+          <div>Location: Waco, Texas</div>
+          <div>Undergrad Population: 14,000</div>
+          <div>Private College in a Suburban Setting</div>
+          <div>Tuition: $45,000</div>
+          <div>Cost of Attendance: $62,000</div>
+          <div>Average ACT: 26-31</div>
+          <div>Average SAT: 1190-1360</div>
+          <div>Is ACT/SAT writing test necessary: no</div>
+          <div>Common App or Coalition: Common App</div>
+          <div>Acceptance Rate: 39%</div>
+          <div>Types of Deadlines: Early Action, Early Decicions, Regular Decision</div>
+          <p><a href="https://www.baylor.edu/"><button class="button" >Go to Website</button></a></p>
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+      <h2>Brigham Young University</h2>
+        <div>Location: Provo, Utah</div>
+        <div>Undergrad Population: 31,000</div>
+        <div>Private College in a Suburban Setting</div>
+        <div>Tuition: $5,6200</div>
+        <div>Cost of Attendance: $18,000</div>
+        <div>Average ACT: 27-32</div>
+        <div>Average SAT: 1210-1410</div>
+        <div>Is ACT/SAT writing test necessary: no</div>
+        <div>Common App or Coalition: Neither, BYU app</div>
+        <div>Acceptance Rate: 52%</div>
+        <div>Types of Deadlines: Regular Decision</div>
+        <p><a href="https://www.byu.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Brown University</h2>
+          <div>Location: Providence, Rhode Island</div>
+          <div>Undergrad Population: 7,000</div>
+          <div>Private College in an Urban Setting</div>
+          <div>Tuition: $50,000</div>
+          <div>Cost of Attendance: $55,000</div>
+          <div>Average ACT: 31-35</div>
+          <div>Average SAT: 1410-1570</div>
+          <div>Is ACT/SAT writing test necessary: no</div>
+          <div>Common App or Coalition: Both</div>
+          <div>Acceptance Rate: 8%</div>
+          <div>Types of Deadlines: Early Decision and Regular Decision</div>
+          <p><a href="https://www.brown.edu/"><button class="button" >Go to Website</button></a></p>
+
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>California Institute of Technology</h2>
+          <div>Location: Pasadena, California</div>
+          <div>Undergrad Population: 1,000</div>
+          <div>Private College in a Suburban Setting</div>
+          <div>Tuition: $45,000</div>
+          <div>Cost of Attendance: $72,000</div>
+          <div>Average ACT: 34-36</div>
+          <div>Average SAT: 1510-1600</div>
+          <div>Is ACT/SAT writing test necessary: yes</div>
+          <div>Common App or Coalition: Common App</div>
+          <div>Acceptance Rate: 9%</div>
+          <div>Types of Deadlines: Early Action and Regular Decision</div>
+          <p><a href="http://www.caltech.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College of William and Mary</h2>
+          <div>Location: Williamsburg, Virginia</div>
+          <div>Undergrad Population: 9,000</div>
+          <div>Public College in an Urban Setting</div>
+          <div>Tuition: $41,000</div>
+          <div>Cost of Attendance: $58,000</div>
+          <div>Average ACT: 28-33</div>
+          <div>Average SAT: 1250-1470</div>
+          <div>Is ACT/SAT writing test necessary: no</div>
+          <div>Common App or Coalition: both</div>
+          <div>Acceptance Rate: 35%</div>
+          <div>Types of Deadlines: Early Decision and Regular Decision</div>
+          <p><a href="https://www.wm.edu/"><button class="button" >Go to Website</button></a></p>
+
+        </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Columbia</h2>
+          <div>Location: New York City, New York</div>
+          <div>Undergrad Population: 6,000</div>
+          <div>Private College in an Urban Setting</div>
+          <div>Tuition: $60,000</div>
+          <div>Cost of Attendance: $74,000</div>
+          <div>Average ACT: 32-35</div>
+          <div>Average SAT: 1450-1580</div>
+          <div>Is ACT/SAT writing test necessary: no</div>
+          <div>Common App or Coalition: both</div>
+          <div>Acceptance Rate: 6%</div>
+          <div>Types of Deadlines: Early Decision and Regular Decision</div>
+          <p><a href="https://www.columbia.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Cornell University</h2>
+          <div>Location: Ithaca, New York</div>
+          <div>Undergrad Population: 15,000</div>
+          <div>Private College in a Rurul Setting</div>
+          <div>Tuition: $55,000</div>
+          <div>Cost of Attendance: $70,000</div>
+          <div>Average ACT: 31-35</div>
+          <div>Average SAT: 1390-1550</div>
+          <div>Is ACT/SAT writing test necessary: no</div>
+          <div>Common App or Coalition: Common App</div>
+          <div>Acceptance Rate: 13%</div>
+          <div>Types of Deadlines: Early Decision and Regular Decision</div>
+          <p><a href="https://www.cornell.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Dartmouth College</h2>
+          <div>Location: Hanover, New Hampshire</div>
+          <div>Undergrad Population: 4,000</div>
+          <div>Private College in a Rural Setting</div>
+          <div>Tuition: $60,000</div>
+          <div>Cost of Attendance: $74,000</div>
+          <div>Average ACT: 30-34</div>
+          <div>Average SAT: 1430-1560</div>
+          <div>Is ACT/SAT writing test necessary: yes</div>
+          <div>Common App or Coalition: both</div>
+          <div>Acceptance Rate: 10%</div>
+          <div>Types of Deadlines: Early Decision</div>
+          <p><a href="https://home.dartmouth.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Duke University</h2>
+          <div>Location: Durham, North Carolina</div>
+          <div>Undergrad Population: 7,000</div>
+          <div>Private College in an Urban Setting </div>
+          <div>Tuition: $50,000</div>
+          <div>Cost of Attendance: $54,000</div>
+          <div>Average ACT: 31-34</div>
+          <div>Average SAT: 1380-1570</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition: both</div>
+          <div>Acceptance Rate: 6%</div>
+          <div>Types of Deadlines: Early Decision and Regular Decision</div>
+          <p><a href="https://www.duke.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Georgia Institute of Technology</h2>
+          <div>Location: Atlanta, Georgia</div>
+          <div>Undergrad Population: 17,000</div>
+          <div>Public College in an Urban Setting</div>
+          <div>Tuition: $32,000</div>
+          <div>Cost of Attendance: $49,000</div>
+          <div>Average ACT: 30-34</div>
+          <div>Average SAT: 1320-1500</div>
+          <div>Is ACT/SAT writing test necessary: yes</div>
+          <div>Common App or Coalition: both</div>
+          <div>Acceptance Rate: 32%</div>
+          <div>Types of Deadlines: Early Action and Regular Decision</div>
+          <p><a href="http://www.gatech.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Grinnell College</h2>
+          <div>Location: Grinnell, Indiana</div>
+          <div>Undergrad Population: 2,000</div>
+          <div>Private College in a Rural Setting </div>
+          <div>Tuition: $52,000</div>
+          <div>Cost of Attendance: $68,000</div>
+          <div>Average ACT: 30-34</div>
+          <div>Average SAT: 1310-1510</div>
+          <div>Is ACT/SAT writing test necessary: yes</div>
+          <div>Common App or Coalition: Common App</div>
+          <div>Acceptance Rate: 29%</div>
+          <div>Types of Deadlines: Early Decision and Regular Decision</div>
+          <p><a href="https://www.grinnell.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Harvard University</h2>
+          <div>Location:Cambridge, Massachusetts</div>
+          <div>Undergrad Population: 7,000</div>
+          <div>Private College in an Urban Setting</div>
+          <div>Tuition: $49,000</div>
+          <div>Cost of Attendance: $74,000</div>
+          <div>Average ACT: 32-35</div>
+          <div>Average SAT: 1460-1590</div>
+          <div>Is ACT/SAT writing test necessary: yes</div>
+          <div>Common App or Coalition: both</div>
+          <div>Acceptance Rate: 6%</div>
+          <div>Types of Deadlines: Early Action and Regular Decision</div>
+          <p><a href="https://www.harvard.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>Iowa State University</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" style="width:100%">
+      <div class="container">
+        <h2>College Name</h2>
+          <div>Location: </div>
+          <div>Undergrad Population:</div>
+          <div>College School Type and Setting:</div>
+          <div>Tuition:</div>
+          <div>Cost of Attendance:</div>
+          <div>Average ACT:</div>
+          <div>Average SAT:</div>
+          <div>Is ACT/SAT writing test necessary:</div>
+          <div>Common App or Coalition:</div>
+          <div>Acceptance Rate:</div>
+          <div>Types of Deadlines</div>
+          <p><a href="https://www.agnesscott.edu/"><button class="button" >Go to Website</button></a></p>>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
