@@ -1,0 +1,133 @@
+.center{
+  text-align: center;
+  border: 10px solid #00FA9A;
+}
+
+.space{
+  padding: 9px;
+}
+
+.spaceForResults{
+  padding: 15;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+}
+
+header {
+  background: rgb(76,195,236);
+background: linear-gradient(90deg, rgba(76,195,236,1) 0%, rgba(18,195,155,1) 100%);
+  width: 100%;
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  background: white;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+section {
+  background: black;
+  padding: 5px;
+
+}
+
+nav .logo {
+  padding: 20px 13px;
+  float: left;
+  font-size: 20px;
+}
+
+.logo_c {
+  width:  120px;
+  height: 60px;
+}
+
+.motto {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  color: #f2efef;
+}
+
+
+
+.wcme {
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+  text-align:center;
+  border-top: -1;
+  position: absolute; top: 380px; left: 43%;
+
+}
+
+u {
+  border-bottom: 5px solid black;
+  text-decoration: none;
+}
+
+.dsc {
+  padding: 80px 0;
+  background: white;
+}
+
+.desc {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.gr {
+  padding:40px;
+  background: rgb(76,195,236);
+  background: linear-gradient(90deg, rgba(76,195,236,1) 0%, rgba(18,195,155,1) 100%);
+}
+
+li a {
+
+    color:black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background: rgb(255,255,255);
+ background: linear-gradient(180deg, rgba(255,255,255,1) 77%, rgba(104,240,218,1) 82%, rgba(125,249,226,1) 84%);
+}
+
+.centerlist {
+  display:table; margin:0 auto;
+}
+
+.smaller {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.divider {
+  position: relative;
+  left: 425px;
+}
