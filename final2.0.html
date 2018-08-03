@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Testing</title>
+  <script src="script2.0.js"></script>
+  <link rel="stylesheet" href="css2.0.css">
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Lobster|Play:700|Righteous" rel="stylesheet">
+</head>
+<body>
+  <nav>
+      <ul>
+        <li><a href="file:///C:/Users/GWC2017/Desktop/new_design/newweb.html">Home</li></a>
+        <li><a href="">Quiz</li></a>
+        <li><a href="">Colleges</li></a>
+        <li><a href="file:///C:/Users/GWC2017/Desktop/new_design/stress_relief.html">Stress Relief</li></a>
+        <li><a href="">WingMan</li></a>
+        <li><a href="">About Us</li></a>
+      </ul>
+    </nav>
+  <header>
+    <img src="logo3.png" alt="logo" class="logo_c">
+    <h1>MyCollegeWingMan<h1>
+    <p class="motto"> Created By Students, For Students</p>
+  </header>
+
+  <section>
+
+  </section>
+    <div class="dsc">
+      <div class="center">
+        <h2>PLEASE ONLY CLICK ON THE BUTTONS, NOT THE BOX</h2>
+      </div>
+      <div class="center">
+        <h2>REFRESH TO START QUIZ OVER</h2>
+      </div>
+      <div class="center">
+        <h2>ONLY CLICK ON A BUTTON ONE TIME OTHERWISE YOU MAY NEED TO REFRESH</h2>
+      </div>
+      <div class="center">
+        <h2>OUR ALGORITHM IS VERY SENSITIVE SO PLEASE FOLLOW OUR INSTRUCTIONS CAREFULLY</h2>
+      </div>
+    <div class="center">
+    <h1>Regions:</h1>
+              <div class="space">
+              <input type="checkbox" id="option1Q1">
+              <button onclick=checkQ("option1Q1","Midwest")>Midwest</button>
+              </div>
+
+              <div class="space">
+              <input type="checkbox" id="option2Q1">
+              <button onclick=checkQ("option2Q1","Northeast")>Northeast</button>
+              </div>
+
+              <div class="space">
+              <input type="checkbox" id="option3Q1">
+              <button onclick=checkQ("option3Q1","WestCoast")>West Coast</button>
+              </div>
+
+              <div class="space">
+              <input type="checkbox" id="option4Q1">
+              <button onclick=checkQ("option4Q1","Southwest")>Southwest</button>
+              </div>
+
+              <div class="space">
+              <input type="checkbox" id="option5Q1">
+              <button onclick=checkQ("option5Q1","Southeast")>Southeast</button>
+              </div>
+
+              <div class="space">
+              <button onclick=submitQ1()>NEXT QUESTION</button>
+              </div>
+    </div>
+
+    <div class="space" id="DIV1st&2ndQ" style="display:none;">
+    <div class="center">
+      <h1>Setting:</h1>
+                <div class="space">
+                <input type="checkbox" id="option1Q2">
+                <button onclick = checkQ("option1Q2","Suburban") >Suburban</button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option2Q2">
+                <button onclick=checkQ("option2Q2","Urban")>Urban</button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option3Q2">
+                <button onclick=checkQ("option3Q2","Rural")>Rural</button>
+                </div>
+
+                <div class="space">
+                <button onclick=submitQ2()>NEXT QUESTION</button>
+                </div>
+              </div>
+    </div>
+
+    <div class="space" id="DIV2nd&3rdQ" style="display:none;">
+    <div class="center">
+      <h1>School Type:</h1>
+                <div class="space">
+                <input type="checkbox" id="option1Q3">
+                <button onclick = checkQ("option1Q3","Private") >Private</button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option2Q3">
+                <button onclick=checkQ("option2Q3","Public")>Public</button>
+                </div>
+
+                <div class="space">
+                <button onclick=submitQ3()>NEXT QUESTION</button>
+                </div>
+    </div>
+    </div>
+
+    <div class="space" id="DIV3rd&4thQ" style="display:none;">
+    <div class="center">
+      <h1>Undergraduate Student Population:</h1>
+                <div class="space">
+                <input type="checkbox" id="option1Q4">
+                <button onclick = checkQ("option1Q4","0-2,000")>(0-2,000] Students</button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option2Q4">
+                <button onclick=checkQ("option2Q4","2,000-8,000")>(2,000-8,000] Students</button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option3Q4">
+                <button onclick=checkQ("option3Q4","8,000-15,000")>(8,000-15,000] Students</button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option4Q4">
+                <button onclick=checkQ("option4Q4","15,000+")>15,000 + Students</button>
+                </div>
+
+                <div class="space">
+                <button onclick=submitQ4()>NEXT QUESTION</button>
+                </div>
+              </div>
+    </div>
+
+    <div class="space" id="DIV4th&5thQ" style="display:none;">
+    <div class="center">
+      <h1>Tuition Cost:</h1>
+                <div class="space">
+                <input type="checkbox" id="option1Q5">
+                <button onclick = checkQ("option1Q5","0-10,000")>($0-$10,000] </button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option2Q5">
+                <button onclick=checkQ("option2Q5","10,000-30,000")>($10,000-$30,000] </button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option3Q5">
+                <button onclick=checkQ("option3Q5","30,000-50,000")>($30,000-$50,000]</button>
+                </div>
+
+                <div class="space">
+                <input type="checkbox" id="option4Q5">
+                <button onclick=checkQ("option4Q5","50,000+")>$50,000 + </button>
+                </div>
+
+                <div class="space">
+                <button onclick=submitQ5()>SUBMIT</button>
+                </div>
+              </div>
+    </div>
+
+    <div class="spaceForResults" id="RESULTS" style="display:none;">
+      <div class="center" >
+      <h3>HERE ARE YOUR RESULTS:</h3>
+      (Notice: Our algorithm may print out the same school more than once)
+        <p id="placeHolderForResults1">
+        </p>
+        or
+        <p id="placeHolderForResults2">
+        </p>
+        or
+        <p id="placeHolderForResults3">
+        </p>
+        or
+        <p id="placeHolderForResults4">
+        </p>
+        or
+        <p id="placeHolderForResults5">
+        </p>
+      </div>
+    </div>
+    </div>
+    <section>
+
+    </section>
+    <div class="gr">
+      <p>copyright goes here i think lol</p>
+    </div>
+
+</body>
+</html>
