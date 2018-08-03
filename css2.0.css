@@ -1,0 +1,12 @@
+.center{
+  text-align: center;
+  border: 10px solid #00FA9A;
+}
+
+.space{
+  padding: 9px;
+}
+
+.spaceForResults{
+  padding: 15;
+}
