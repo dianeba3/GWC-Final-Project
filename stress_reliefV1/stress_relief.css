@@ -1,0 +1,323 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+}
+
+header {
+  background: rgb(76,195,236);
+background: linear-gradient(90deg, rgba(76,195,236,1) 0%, rgba(18,195,155,1) 100%);
+  width: 100%;
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  background: white;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+section {
+  background: black;
+  padding: 5px;
+
+}
+
+nav .logo {
+  padding: 20px 13px;
+  float: left;
+  font-size: 20px;
+}
+
+.logo_c {
+  width:  120px;
+  height: 60px;
+}
+
+.motto {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  color: #f2efef;
+}
+
+
+
+
+
+u {
+  border-bottom: 5px solid black;
+  text-decoration: none;
+}
+
+.dsc {
+  padding: 60px 0;
+  background:#1e1f21;
+  text-align: center;
+}
+
+.desc {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: white;
+  position: relative;
+}
+
+.gr {
+  padding:40px;
+  background: rgb(76,195,236);
+  background: linear-gradient(90deg, rgba(76,195,236,1) 0%, rgba(18,195,155,1) 100%);
+}
+
+li a {
+
+    color:black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background: rgb(255,255,255);
+ background: linear-gradient(180deg, rgba(255,255,255,1) 77%, rgba(104,240,218,1) 82%, rgba(125,249,226,1) 84%);
+}
+
+.mainn {
+  padding: 300px;
+  background: #eaedf2;
+}
+
+.strs {
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 100px;
+  position: absolute;
+  top: 300px; left: 39%;
+  text-align: center;
+}
+
+.strs {
+    -webkit-animation: color-change 2s infinite;
+    -moz-animation: color-change 2s infinite;
+    -o-animation: color-change 2s infinite;
+    -ms-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: white; }
+    50% { color: gray; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change {
+    0% { color: white; }
+    50% { color: gray; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change {
+    0% { color: white; }
+    50% { color: gray; }
+    100% { color: black; }
+}
+@-o-keyframes color-change {
+    0% { color:white; }
+    50% { color: gray; }
+    100% { color: black; }
+}
+@keyframes color-change {
+    0% { color: white; }
+    50% { color: gray; }
+    100% { color: black; }
+
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    top: 780px; left: 5%;
+}
+
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  position: absolute;
+  top: 780px; left: 38%;
+
+}
+
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  position: absolute;
+  top: 780px; left: 70%;
+
+}
+
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+
+/* modal stuff */
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
