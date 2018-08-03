@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Testing</title>
+  <link rel="stylesheet" href="new_web.css">
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Lobster|Play:700|Righteous" rel="stylesheet">
+</head>
+<body>
+    <nav>
+      <ul>
+        <li><a href="newweb.html">Home</li></a>
+        <li><a href="">Quiz</li></a>
+        <li><a href="">Colleges</li></a>
+        <li><a href="">Stress Relief</li></a>
+        <li><a href="">WingMan</li></a>
+        <li><a href="realabout.html">About Us</li></a>
+      </ul>
+    </nav>
+<header>
+  <h1>Who are we?</h1>
+</header>
+
+<section>
+</section>
+<br>
+<br>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="slide3.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="slide2.jpg" style="width:50%" class="center">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="groupphoto.jpg" style="width:50%" class="center">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+<br>
+<p class="desc">We're students, designers, dreamers, programmers, and so much more. As members of the <a href="https://girlswhocode.com/">Girls Who Code</a>
+            <br> summer immersion program, we have spent a substantial amount of time perfecting our site to be tailored for every student<br>
+            with different preferences and needs. As students ourselves, we understand what is significant to students in the
+          <br> college research and application process. Our website is designed to take the college setting, region, school type, and population
+        <br> into consideration and give students college results that they'll be satisfied with.</p>
+<br>
+
+
+<img src="divider.png" class="divider">
+
+<br>
+<header>
+  <h1>Our Goal</h1>
+</header>
+<br>
+<br>
+<p class="desc">Created in July 2018, our website is dedicated to helping students feel more confident <br> about
+              their college choices. The college application and decision process can be stressful, and as students
+            <br> ourselves, we understand how stressful it can be. Thanks to our website, students can now take a short
+          (less than 15 minute) <br> quiz and relax while MyCollegeWingman does all the college research for you!</p>
+<br>
+<img src="divider.png" class="divider">
+<br>
+<header>
+  <h1> Meet the Creators!</h1>
+</header>
+<br>
+
+<br>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="diane.jpg" alt="Diane" style="width:100%">
+      <div class="container">
+        <h2 class="insidetext">Diane Batres</h2>
+        <p class="title">Developer</p>
+        <p class="insidetext">Diane is a 17 year old who was born in El Salvador but grew up in Evanston, IL. She is a rising senior at Evanston Township High School and her favorite subjects in school are math and science because even though some of the hardest problems frustrate her, she knows that there is always a solution. Outside of the classroom, Diane has joined many clubs including SHPE Jr, Team ASAP, WiSTEM, Students Without Borders Club, and the Cross Country Team. During her free time, Diane likes to hang out with friends, run, and read, and she spends a lot of time in bookstores and coffee shops. She hopes to go to college, hopefully MIT, and earn a degree in Computer Science.
+</p>
+        <p class="insidetext">Contact: dianeba3@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="aashna.jpg" alt="Aashna" style="width:100%">
+      <div class="container">
+        <h2 class="insidetext">Aashna Mehta</h2>
+        <p class="title">Developer</p>
+        <p class="insidetext">Aashna is from Naperville, Illinois and is a senior at Neuqua Valley High School. Her dream school is Stanford University. Girls who code taught her how to code in different languages that include python and javascript and built off the foundation formed when she learned java in school. She has been involved in many organizations at her school such as Youth in Government and DECA, and has been on the executive board for the latter organization. After she graduates high school Aashna wants to pursue degrees in Computer Science and Electrical Engineering. She started coding when she first took Computer Science through school in which she learned java. </p>
+        <p class="insidetext">Contact: aashnavmehta@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="victoria.jpeg" alt="Victoria" style="width:100%">
+        <div class="container">
+          <h2 class="insidetext">Victoria Nunez</h2>
+          <p class="title">Developer</p>
+          <p class="insidetext">Victoria is from Chicago and a rising junior at Lane Tech College Prep. Her dream college to attend is the University of Illinois at Urbana-Champaign. Girls Who Code has helped prepare Victoria for future coding jobs, along with the coding for this website. Victoria was first introduced to computer science when she tried to hack Poptropica. In her free time, she enjoys drawing on her art tablet, listening to music, and teaching herself how to code. In the future, she hopes to persue a computer science degree and continuously learn more and more. Computer science and visual arts are her strong suits, which is why her goal is to combine both skills into one dream career. <br>
+  </p>
+          <p class="insidetext">Contact: victoria9339@gmail.com</p>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<div class="row">
+  <div class="lowerbottom2">
+    <div class="card">
+      <img src="maggiee.jpg" alt="Maggie" style="width:100%">
+      <div class="container">
+        <h2 class="insidetext">Magdalena Kasprzak</h2>
+        <p class="title">Developer</p>
+        <p class="insidetext">Maggie is a rising senior attending Amos Alonzo Stagg High School and lives in Palos Park, Illinois. Her dream college is Johns Hopkins University. Addicted to coffee and herbal tea, she surrounds herself with Netflix; books; knowledge through various AP classes, textbooks, and teachers;  her friends; and her family. Considering she wants to become a doctor by majoring in BioMedical Engineering, it does not come as a surprise that her favorite classes are Ap Bio, Honors Anatomy and Physiology, and AP Calc BC. Her most notable extracurriculars include 15 years of Polish School, the Northwestern Discovery Program, Student Council, Club Med, and lastly, Girls Who Code. Girls Who Code opened Maggie’s eyes to the innovative world of technology, and how to create your own little versions of technology through programming. She hopes to combine what she has learned in Girls Who Code with future classes to improve the world.
+</p>
+        <p class="insidetext">Contact: kasprzakmaggie@gmail.com</p>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="lowerbottom">
+        <div class="card">
+          <img src="priscilla.jpg" alt="Priscilla" style="width:100%">
+          <div class="container">
+            <h2 class="insidetext">Priscilla Lagunas</h2>
+            <p class="title">Developer</p>
+            <p class="insidetext">Priscilla is a junior at Lane Tech College Prep in Chicago, Illinois. She is passionate for video games, donuts, books, and memes. She was first introduced to Computer Science when she tinkered with Unity to create 3D video games. Priscilla is currently involved in several activities in and outside of school, including Ruckus Teens, Rugby, Girls Who Code, and Academic Decathlon. Girls Who Code has taught Priscilla essential skills in programming, such as Python, HTML, CSS, and Javascript. After graduating high school, Priscilla plans on attending University of Denver or Carnegie Mellon.
+    </p>
+            <p class="insidetext">Contact: priscilagunas@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+
+
+
+</body>
